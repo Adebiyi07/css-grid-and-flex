@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+.flexbox-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 400px; 
+}
+@media only screen and (max-width: 375px) {
+    .flexbox-container {
+        display: flex;
+        flex-direction: column;
+        display: block;
+    }
+    a {
+        text-align: center;
+    }
+     main { 
+        width: 50%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50vh;
+    }  
+    .sedan-content, .suv-content, .luxury-content{
+        border-radius: 10px;
+    }
+}
+
+ main { 
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+} 
+
+.sedan-content {
+    background-color: hsl(31, 77%, 52%);
+    font-size: 15px;
+    padding: 10px;
+    width: 270px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.suv-content {
+    background-color: hsl(184, 100%, 22%);
+    font-size: 15px;
+    padding: 10px;
+    width: 270px;
+}
+
+.luxury-content {
+    background-color: hsl(179, 100%, 13%);
+    font-size: 15px;
+    padding: 10px;
+    width: 270px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.sedan-image {
+   padding: 20px;
+    
+}
+.SUV-image {
+   padding: 20px;
+}
+.luxury-image {
+   padding: 20px;
+}
+h2 {
+    padding: 20px;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+}
+p {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+a {
+    background-color: hsl(184, 100%, 22%); 
+    border: 1.5px solid white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none; 
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.btn1 {
+    color: hsl(31, 77%, 52%);
+    background-color: hsl(0, 0%, 95%);
+}
+.btn2 {
+    color: hsl(184, 100%, 22%);
+    background-color: hsl(0, 0%, 95%);
+}
+.btn3 {
+    color: hsl(179, 100%, 13%);
+    background-color: hsl(0, 0%, 95%);
+}
+.btn1:hover {
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(31, 77%, 52%);
+} 
+.btn2:hover {
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(184, 100%, 22%);
+}
+.btn3:hover {
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(179, 100%, 13%);
+}
